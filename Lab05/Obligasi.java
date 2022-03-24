@@ -19,7 +19,7 @@ public class Obligasi extends Aset {
     // call next year method from aset
     super.nextYear();
     // if not jatuh tempo then add earning with harga*bunga*jumlah
-    if (!jatuhTempo) {
+    if (!isJatuhTempo()) {
       Pacilnomo.addToEarnings(this.getHarga() * this.bunga * this.getJumlah());
     }
   }
