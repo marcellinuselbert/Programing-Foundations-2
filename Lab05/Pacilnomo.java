@@ -78,7 +78,7 @@ public class Pacilnomo {
 				double dividen = Double.valueOf(inp[5]);
 				// create new object saham
 				portofolio[i] = new Saham(namaAset, jumlah, harga, pertumbuhan, dividen);
-			// if its obligasi then get the bunga in fourth index and maturitas in fifth index
+			// if its obligasi then get the bunga in fourth index and maturitas in fifth index1
 			} else if(jenisAset.equals("OBLIGASI")) {
 				double bunga = Double.valueOf(inp[4]); 
 				int maturitas= Integer.valueOf(inp[5]);

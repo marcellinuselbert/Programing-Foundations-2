@@ -9,6 +9,7 @@ public class Obligasi extends Aset {
     super(nama, jumlah, harga);
     this.bunga = bunga;
     this.maturitas = maturitas;
+    setJatuhTempo(isJatuhTempo());
   }
 
   @Override
